@@ -1,0 +1,46 @@
+/* .mainContainer{
+background-image:url('http://www.pixelstalk.net/wp-content/uploads/2016/04/Summer-holiday-wallpapers-HD.jpg');
+height: 600px;
+
+} */
+
+body {
+    background-image: url('https://0.s3.envato.com/files/1616804/Preview_image.jpg');
+    background-size: 100%;
+}
+
+.locationContainer {
+    width: 500px;
+    height: 200px;
+    margin: 30px 30px 20px 30px;
+    font-size: 12px;
+    background-color: dodgerblue;
+    display: block;
+    border-radius: 10px;
+    border-color: aliceblue;
+}
+
+.weatherDetailsContainer {
+    font-size: 30px;
+    background-color: dodgerblue;
+    margin: 30px 30px 20px 30px;
+    border-radius: 20px;
+    border-color: aliceblue;
+    font-family: cursive;
+}
+
+/* #temperatureDetails {
+      display: inline-block !important;
+} */
+
+.mainContainer2 {
+    background: #225896;
+    border: 3px solid ;
+    overflow: auto; 
+}
+
+#city {
+    padding-top: 35px;
+    font-size: 50px;
+    font-family: cursive;
+}

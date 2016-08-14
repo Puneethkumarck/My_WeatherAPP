@@ -1,0 +1,58 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Foundation | Welcome Medium Grid</title>
+    <link rel="stylesheet" href="../css/foundation.min.css" />
+    <script src="../js/vendor/modernizr.js"></script>
+    <link rel="stylesheet" type="text/css" href="../css/weatherApp.css">
+</head>
+
+<body>
+    <div class="large-6 small-6 medium-6 large-centered columns">
+        <!-- Header -->
+        <div class="large-12 small-12 medium-12" style="padding-top:20px">
+            <p style="font-size:70px;font-style:oblique; background-color:#248ada;color:#CDDC39;" 
+            class="text-center panel round success">Weather Forecast</p>
+        </div>
+
+        <div class=" large-12 small-12 medium-12 mainContainer2" >
+            <!-- first Section CITY & State -->
+            <div class=" large-12 small-12 medium-12 locationContainer large-offset-3">
+                <div id="city" class="text-center"></div>
+                <div id="country" class="text-center" style="font-style: oblique;font-size: 30px"></div>
+            </div>
+            <!-- Second Section WeatherInfo -->
+            <div class=" large-10 small-12 medium-12 weatherDetailsContainer large-offset-1 text-center">
+            
+                <div class="row" id="temperatureDetails">
+                    <div id="temperature"></div>
+                    <div id="degreeSymbol"></div>
+                </div>
+
+                <div id="humidity"></div>
+                <div id="conditions"></div>
+                <div id="winds"></div>
+                <div id="pressure"></div>
+                <div id="sunrise"></div>
+                <div id="sunrise"></div>
+                <div id="sunset"></div>
+                <!--  <a href="#" id="unit" class="button round">Use Imperial units</a>
+ --></div>
+            <!-- <button id="unit" type="button">Use Imperial Units</button>-->
+            <div class="large-6 samll-6 medium-6 large-push-3 medium-push-3 small-push-3">
+                <input type="submit" class="button expand" id="unit" value="Use Imperial Units" style="padding-left: 50px" />
+            </div>
+        </div>
+    </div>
+    <script src="../js/vendor/jquery.js"></script>
+    <script src="../js/foundation.min.js"></script>
+    <script>
+    $(document).foundation();
+    </script>
+    <script src="../js/weatherApp2.js"></script>
+</body>
+
+</html>
