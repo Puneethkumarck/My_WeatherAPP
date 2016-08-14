@@ -22,6 +22,28 @@ $( document ).ready(function() {
     var windSymbol = 'km/h'; // set default wind speed units.
     var iconURL = "";
 
+    var options = {
+
+    weekday: "long",
+    year: "numeric",
+    month: "short",
+    day: "numeric",
+    hour: "2-digit",
+    minute: "2-digit"
+
+};
+
+
+/*
+    Description:
+    The toLocaleTimeString() method returns a string with a language sensitive representation of the time portion of this date. The new locales and options arguments let applications specify the language whose formatting conventions should be used and customize the behavior of the function. In older implementations, which ignore the locales and options arguments, the locale used and the form of the string returned are entirely implementation dependent.
+
+    Syntax:
+    dateObj.toLocaleTimeString([locales [, options]])
+*/
+
+    $(".cur-date").html(new Date().toLocaleTimeString('en-us',options));
+
 
     function locationByIP() {
 
