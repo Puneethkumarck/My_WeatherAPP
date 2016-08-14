@@ -29,18 +29,31 @@ body {
     font-family: cursive;
 }
 
+
 /* #temperatureDetails {
       display: inline-block !important;
 } */
 
 .mainContainer2 {
     background: #225896;
-    border: 3px solid ;
-    overflow: auto; 
+    border: 3px solid;
+    overflow: auto;
+    border-radius: 20px;
 }
 
 #city {
     padding-top: 35px;
     font-size: 50px;
     font-family: cursive;
+}
+
+.headerStyle {
+    padding-top: 20px;
+    margin-top: 20px;
+    font-size: 70px;
+    font-style: oblique;
+    background-color: #248ada;
+    color: #CDDC39;
+    border-radius: 20px;
+    border: 3px solid;
 }
